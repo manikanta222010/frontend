@@ -1,0 +1,25 @@
+.messages {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.white{
+  color: white;
+}
+
+.errspan {
+  float: right;
+  margin-right: 6px;
+  margin-top: -20px;
+  position: relative;
+  z-index: 2;
+  color: red;
+}
+
+
+.temp{
+  display: flex;
+  flex-direction: row;
+}
